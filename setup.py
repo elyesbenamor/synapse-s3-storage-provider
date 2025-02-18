@@ -6,14 +6,14 @@ with open("README.md") as f:
     long_description = f.read()
 
 setup(
-    name="synapse-s3-storage-provider",
+    name="s3-synapse-storage-provider",
     version=__version__,
     zip_safe=False,
     author="matrix.org team and contributors",
     description="A storage provider which can fetch and store media in Amazon S3.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/matrix-org/synapse-s3-storage-provider",
+    url="https://github.com/elyesbenamor/synapse-s3-storage-provider.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
